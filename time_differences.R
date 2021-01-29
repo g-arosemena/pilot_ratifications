@@ -4,7 +4,7 @@ library(tibble)
 
 # How to read a list of files. First get them into a variable. Will not work if the folder is not completely empty of extraneous files.
 
-filenames <- list.files("C:/Users/gusta/Documents/Datasets/9t/", full.names=TRUE)
+filenames <- list.files(FILE_FOLDER, full.names=TRUE)
 
 # Initialize empty list
 
